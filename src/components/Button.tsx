@@ -1,7 +1,7 @@
 interface ButtonProps {
   text: string;
   onClick: () => void;
-  key?: string;
+  key?: string | number;
   loading?: boolean;
 }
 
